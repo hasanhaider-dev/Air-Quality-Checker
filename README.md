@@ -1,8 +1,8 @@
 # Air Quality APP
 This application introduces the following features through the endpoints and background jobs.
-- /airquality endpoint to check the airquality details by invoking the [iqair]([url](https://api-docs.iqair.com/#important-notes)) API
+- `/airquality` endpoint to check the airquality details by invoking the [iqair]([url](https://api-docs.iqair.com/#important-notes)) API
 - Background job that runs every minute to check the air quality of Paris zone, and store the information in the DB
-- /pollutedtime endpoint to check the most polluted time of a specific zone by searching the records in the DB.
+- `/pollutedtime` endpoint to check the most polluted time of a specific zone by searching the records in the DB.
 - Integration & unit tests of endpoints and services.
 
 
